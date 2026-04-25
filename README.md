@@ -1,4 +1,4 @@
-# aiquestion
+# aiquestion-cli
 
 > A tiny `ai` command for your terminal — ask an LLM and get a short answer. Pure Bash, zero runtime dependencies beyond `curl` and `python3`.
 
@@ -46,7 +46,7 @@ sudo install -m 755 ai /usr/local/bin/ai
 Or, if you cloned the repo somewhere else:
 
 ```bash
-curl -o /usr/local/bin/ai https://raw.githubusercontent.com/alagrede/aiquestion/main/ai
+curl -o /usr/local/bin/ai https://raw.githubusercontent.com/alagrede/aiquestion-cli/main/ai
 chmod +x /usr/local/bin/ai
 ```
 
